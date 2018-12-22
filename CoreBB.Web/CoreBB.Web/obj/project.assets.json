@@ -12538,11 +12538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dulck\\source\\repos\\CoreBB.Web\\CoreBB.Web\\CoreBB.Web.csproj",
+      "projectUniqueName": "C:\\Users\\dulck\\source\\repos\\Asp.Net Core MVC\\CoreBB.Web\\CoreBB.Web\\CoreBB.Web.csproj",
       "projectName": "CoreBB.Web",
-      "projectPath": "C:\\Users\\dulck\\source\\repos\\CoreBB.Web\\CoreBB.Web\\CoreBB.Web.csproj",
+      "projectPath": "C:\\Users\\dulck\\source\\repos\\Asp.Net Core MVC\\CoreBB.Web\\CoreBB.Web\\CoreBB.Web.csproj",
       "packagesPath": "C:\\Users\\dulck\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dulck\\source\\repos\\CoreBB.Web\\CoreBB.Web\\obj\\",
+      "outputPath": "C:\\Users\\dulck\\source\\repos\\Asp.Net Core MVC\\CoreBB.Web\\CoreBB.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12573,10 +12573,8 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.AspNetCore.App": {
-            "suppressParent": "All",
             "target": "Package",
-            "version": "[2.1.1, )",
-            "autoReferenced": true
+            "version": "[2.1.1, )"
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
