@@ -31,7 +31,6 @@ C:\Users\dulck\source\repos\Asp.Net Core MVC\SportsStore\SportsStore\bin\Debug\n
 C:\Users\dulck\source\repos\Asp.Net Core MVC\SportsStore\SportsStore\bin\Debug\netcoreapp2.1\SportsStore.pdb
 C:\Users\dulck\source\repos\Asp.Net Core MVC\SportsStore\SportsStore\bin\Debug\netcoreapp2.1\SportsStore.Views.dll
 C:\Users\dulck\source\repos\Asp.Net Core MVC\SportsStore\SportsStore\bin\Debug\netcoreapp2.1\SportsStore.Views.pdb
-C:\Users\dulck\source\repos\Asp.Net Core MVC\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.csprojAssemblyReference.cache
 C:\Users\dulck\source\repos\Asp.Net Core MVC\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.csproj.CoreCompileInputs.cache
 C:\Users\dulck\source\repos\Asp.Net Core MVC\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.RazorAssemblyInfo.cache
 C:\Users\dulck\source\repos\Asp.Net Core MVC\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.RazorAssemblyInfo.cs
@@ -50,3 +49,5 @@ C:\Users\dulck\source\repos\Asp.Net Core MVC\SportsStore\SportsStore\obj\Debug\n
 C:\Users\dulck\source\repos\Asp.Net Core MVC\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.dll
 C:\Users\dulck\source\repos\Asp.Net Core MVC\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.pdb
 C:\Users\dulck\source\repos\Asp.Net Core MVC\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.csproj.CopyComplete
+C:\Users\dulck\source\repos\Asp.Net Core MVC\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\SportsStore.csprojAssemblyReference.cache
+C:\Users\dulck\source\repos\Asp.Net Core MVC\SportsStore\SportsStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ProductSummary.g.cshtml.cs
