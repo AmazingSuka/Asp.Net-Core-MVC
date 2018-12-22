@@ -1,0 +1,11 @@
+C:\Users\dulck\source\repos\CoreBB.Web\CoreBB.Tests\bin\Debug\netcoreapp2.1\CoreBB.Tests.deps.json
+C:\Users\dulck\source\repos\CoreBB.Web\CoreBB.Tests\bin\Debug\netcoreapp2.1\CoreBB.Tests.dll
+C:\Users\dulck\source\repos\CoreBB.Web\CoreBB.Tests\obj\Debug\netcoreapp2.1\CoreBB.Tests.csprojAssemblyReference.cache
+C:\Users\dulck\source\repos\CoreBB.Web\CoreBB.Tests\obj\Debug\netcoreapp2.1\CoreBB.Tests.csproj.CoreCompileInputs.cache
+C:\Users\dulck\source\repos\CoreBB.Web\CoreBB.Tests\obj\Debug\netcoreapp2.1\CoreBB.Tests.AssemblyInfoInputs.cache
+C:\Users\dulck\source\repos\CoreBB.Web\CoreBB.Tests\obj\Debug\netcoreapp2.1\CoreBB.Tests.AssemblyInfo.cs
+C:\Users\dulck\source\repos\CoreBB.Web\CoreBB.Tests\bin\Debug\netcoreapp2.1\CoreBB.Tests.runtimeconfig.json
+C:\Users\dulck\source\repos\CoreBB.Web\CoreBB.Tests\bin\Debug\netcoreapp2.1\CoreBB.Tests.runtimeconfig.dev.json
+C:\Users\dulck\source\repos\CoreBB.Web\CoreBB.Tests\bin\Debug\netcoreapp2.1\CoreBB.Tests.pdb
+C:\Users\dulck\source\repos\CoreBB.Web\CoreBB.Tests\obj\Debug\netcoreapp2.1\CoreBB.Tests.dll
+C:\Users\dulck\source\repos\CoreBB.Web\CoreBB.Tests\obj\Debug\netcoreapp2.1\CoreBB.Tests.pdb

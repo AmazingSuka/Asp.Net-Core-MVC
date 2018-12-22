@@ -1,0 +1,21 @@
+﻿@using CoreBB.Web.Models
+@model IEnumerable<CoreBB.Web.Models.Message>
+@inject CoreBB.Web.Models.CoreBBContext _dbContext
+
+@{
+    ViewBag.Title = "Messages";
+}
+
+<table class="table table-bordered table-hover" style="margin-top:60px">
+    <tr>
+        <th>User</th>
+        <th>Message</th>
+        <th>Last messsage date</th>
+    </tr>
+    @foreach (var m in Model.Where(m => m.ToUser.Name != User.Identity.Name).GroupBy(m => m.ToUserId))
+    {
+        <tr>
+            @await Html.PartialAsync("_MessageIndexing", _dbContext.Message.LastOrDefault(x => x.ToUserId == m.Key))
+        </tr>
+    }
+</table>

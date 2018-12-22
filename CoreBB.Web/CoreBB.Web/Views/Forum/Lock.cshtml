@@ -1,0 +1,11 @@
+﻿@model CoreBB.Web.Models.Forum
+@{
+    ViewBag.Title = "Lock Forum";
+    ViewData["Mode"] = "ConfirmingLock";
+}
+
+<form asp-action="Lock" method="post">
+    <input type="hidden" asp-for="Id" />
+    @await Html.PartialAsync("_ForumDetail", Model);
+</form>
+

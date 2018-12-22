@@ -1,0 +1,11 @@
+﻿@model CoreBB.Web.Models.Topic
+@{
+    ViewBag.Title = "Delete Topic";
+    ViewData["Mode"] = "Deleting";
+}
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    @await Html.PartialAsync("_TopicReading", Model)
+</form>
+

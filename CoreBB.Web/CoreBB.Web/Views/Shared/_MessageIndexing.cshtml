@@ -1,0 +1,16 @@
+﻿@model CoreBB.Web.Models.Message
+
+@{
+
+}
+
+<td><a asp-controller="User" asp-action="Detail" asp-route-name="@Model.ToUser.Name">@Model.ToUser.Name</a></td>
+@if (Model.Content.Length > 20)
+{
+    <td><a asp-action="Detail" asp-route-id="@Model.Id">@Model.Content.Substring(0, 50)...</a></td>
+}
+else
+{
+    <td><a asp-action="Detail" asp-route-id="@Model.Id">@Model.Content</a></td>
+}
+<td>@Model.SendDateTime.ToString()</td>

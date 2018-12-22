@@ -1,0 +1,28 @@
+﻿@model CoreBB.Web.Models.Message
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form asp-action="Create" method="post">
+    <input type="hidden" asp-for="ToUserId"  />
+    <div class="container col-6 offset-3">
+        <div class="card border-info">
+            <div class="card-header text-white bg-info">
+                <strong>
+                    Sening message to
+                    <a asp-action="Detail" asp-controller="User" asp-route-name="@Model.ToUser.Name">@Model.ToUser.Name</a>
+                </strong>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label asp-for="Content"></label>
+                    <textarea class="form-control" asp-for="Content" style="min-height:120px"></textarea>
+                </div>
+            </div>
+            <div class="card-footer">
+                <input type="submit" class="btn-sm btn-success" value="Sent" />
+            </div>
+        </div>
+    </div>
+</form>

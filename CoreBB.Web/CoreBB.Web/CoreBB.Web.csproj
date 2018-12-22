@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20181210204255_cascade_replytopic.cs" />
+    <Compile Remove="Migrations\20181210204255_cascade_replytopic.Designer.cs" />
+    <Compile Remove="Migrations\20181212094843_hhh.cs" />
+    <Compile Remove="Migrations\20181212094843_hhh.Designer.cs" />
+    <Compile Remove="Migrations\20181212095751_ggg.cs" />
+    <Compile Remove="Migrations\20181212095751_ggg.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Content\Bootstrap\css\.DS_Store" />
+    <None Include="wwwroot\Content\Bootstrap\css\bootstrap-grid.css" />
+    <None Include="wwwroot\Content\Bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\Content\Bootstrap\css\bootstrap-grid.min.css" />
+    <None Include="wwwroot\Content\Bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\Content\Bootstrap\css\bootstrap-reboot.css" />
+    <None Include="wwwroot\Content\Bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\Content\Bootstrap\css\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\Content\Bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\Content\Bootstrap\css\bootstrap.css" />
+    <None Include="wwwroot\Content\Bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\Content\Bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\Content\Bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\Content\Bootstrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\Content\Bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\Content\Bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\Content\Bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\Content\Bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\Content\Bootstrap\js\bootstrap.js.map" />
+    <None Include="wwwroot\Content\Bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\Content\Bootstrap\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\Content\jQuery\jquery-3.3.1.js" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.1" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>

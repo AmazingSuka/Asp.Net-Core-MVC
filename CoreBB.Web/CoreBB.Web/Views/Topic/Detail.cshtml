@@ -1,0 +1,17 @@
+﻿@model CoreBB.Web.Models.Topic
+@{
+    ViewBag.Title = Model.Title;
+}
+
+<h3>Original</h3>
+@await Html.PartialAsync("_TopicReading", Model)
+
+@if (Model.InverseReplyToTopic.Count != 0)
+{
+    <hr />
+    <h3>Replies</h3>
+    @foreach (var t in Model.InverseReplyToTopic)
+    {
+        @await Html.PartialAsync("_TopicReading", t);
+    }
+}

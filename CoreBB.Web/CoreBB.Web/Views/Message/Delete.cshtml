@@ -1,0 +1,12 @@
+﻿@model CoreBB.Web.Models.Message
+@{
+    ViewData["Title"] = "Delete Message";
+    ViewData["Mode"] = "Deleting";
+}
+
+<div class="container" style="margin-top:120px">
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Id" />
+        @await Html.PartialAsync("_MessageLayout", Model)
+    </form>
+</div>
